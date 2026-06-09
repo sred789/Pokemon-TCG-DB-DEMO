@@ -1,0 +1,884 @@
+[
+  {
+    "deck_card_id": 177,
+    "deck_id": 13,
+    "card_id": "me1-76",
+    "quantity_needed": 3,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 178,
+    "deck_id": 13,
+    "card_id": "me1-77",
+    "quantity_needed": 3,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 179,
+    "deck_id": 13,
+    "card_id": "me1-75",
+    "quantity_needed": 3,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 180,
+    "deck_id": 13,
+    "card_id": "me1-72",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 181,
+    "deck_id": 13,
+    "card_id": "me1-73",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 182,
+    "deck_id": 13,
+    "card_id": "me1-74",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 183,
+    "deck_id": 13,
+    "card_id": "me3-62",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 184,
+    "deck_id": 13,
+    "card_id": "sv6pt5-40",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 185,
+    "deck_id": 13,
+    "card_id": "LD-MEH-048",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 186,
+    "deck_id": 13,
+    "card_id": "BO-ME01-008",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 187,
+    "deck_id": 13,
+    "card_id": "JUD-ME03-042",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 188,
+    "deck_id": 13,
+    "card_id": "sv6pt5-92",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 189,
+    "deck_id": 13,
+    "card_id": "FG-ME01-033",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 190,
+    "deck_id": 13,
+    "card_id": "PPP-ME01-067",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 191,
+    "deck_id": 13,
+    "card_id": "PP-ME03-064",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 192,
+    "deck_id": 13,
+    "card_id": "UB-SV-PF-090",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 193,
+    "deck_id": 13,
+    "card_id": "SWI-BS-082",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 194,
+    "deck_id": 13,
+    "card_id": "AB-SWSH01-003",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 195,
+    "deck_id": 13,
+    "card_id": "MB-SV-PE-050",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 196,
+    "deck_id": 13,
+    "card_id": "sv8-177",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 197,
+    "deck_id": 13,
+    "card_id": "ENG-fighting",
+    "quantity_needed": 12,
+    "quantity_allocated": 12
+  },
+  {
+    "deck_card_id": 251,
+    "deck_id": 4,
+    "card_id": "AM-MEH-001",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 252,
+    "deck_id": 4,
+    "card_id": "ENG-darkness",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 253,
+    "deck_id": 4,
+    "card_id": "ENG-fire",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 254,
+    "deck_id": 4,
+    "card_id": "ENG-psychic",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 255,
+    "deck_id": 4,
+    "card_id": "BO-ME01-008",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 256,
+    "deck_id": 4,
+    "card_id": "BS-SV09-010",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 257,
+    "deck_id": 4,
+    "card_id": "BBP-MEH-011",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 258,
+    "deck_id": 4,
+    "card_id": "BBP-SV-PE-012",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 259,
+    "deck_id": 4,
+    "card_id": "BUD-SV-PE-013",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 260,
+    "deck_id": 4,
+    "card_id": "CRI-SV-PE-017",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 261,
+    "deck_id": 4,
+    "card_id": "DE-MEH-021",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 262,
+    "deck_id": 4,
+    "card_id": "DRA-SV-PE-022",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 263,
+    "deck_id": 4,
+    "card_id": "DRE-SV-PE-024",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 264,
+    "deck_id": 4,
+    "card_id": "DUD-SV-PE-026",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 265,
+    "deck_id": 4,
+    "card_id": "DE-SV09-027",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 266,
+    "deck_id": 4,
+    "card_id": "DUN-SV09-028",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 267,
+    "deck_id": 4,
+    "card_id": "HC-SV05-039",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 268,
+    "deck_id": 4,
+    "card_id": "LD-ME01-049",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 269,
+    "deck_id": 4,
+    "card_id": "MUN-SV-PE-059",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 270,
+    "deck_id": 4,
+    "card_id": "NS-MEH-062",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 271,
+    "deck_id": 4,
+    "card_id": "PP-ME03-064",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 272,
+    "deck_id": 4,
+    "card_id": "POK-SV-BB-065",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 273,
+    "deck_id": 4,
+    "card_id": "RR-ME01-073",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 274,
+    "deck_id": 4,
+    "card_id": "UB-SV-PF-090",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 847,
+    "deck_id": 10,
+    "card_id": "ENG-grass",
+    "quantity_needed": 6,
+    "quantity_allocated": 6
+  },
+  {
+    "deck_card_id": 848,
+    "deck_id": 10,
+    "card_id": "ENG-psychic",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 849,
+    "deck_id": 10,
+    "card_id": "BB-SV-WF-009",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 850,
+    "deck_id": 10,
+    "card_id": "man-bug-catching-set-pre-102-131",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 851,
+    "deck_id": 10,
+    "card_id": "sv1-173",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 852,
+    "deck_id": 10,
+    "card_id": "LCE-MEH-047",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 853,
+    "deck_id": 10,
+    "card_id": "LD-MEH-048",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 854,
+    "deck_id": 10,
+    "card_id": "MB-SV-PE-050",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 855,
+    "deck_id": 10,
+    "card_id": "sf-061",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 856,
+    "deck_id": 10,
+    "card_id": "man-poke-pad-por-113-88",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 857,
+    "deck_id": 10,
+    "card_id": "sv10-170",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 858,
+    "deck_id": 10,
+    "card_id": "sv10-171",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 859,
+    "deck_id": 10,
+    "card_id": "TRA-SV10-083",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 860,
+    "deck_id": 10,
+    "card_id": "sv10-182",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 861,
+    "deck_id": 10,
+    "card_id": "sv10-173",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 862,
+    "deck_id": 10,
+    "card_id": "dr-174",
+    "quantity_needed": 3,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 863,
+    "deck_id": 10,
+    "card_id": "TRG-MEH-084",
+    "quantity_needed": 0,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 864,
+    "deck_id": 10,
+    "card_id": "sv10-81",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 865,
+    "deck_id": 10,
+    "card_id": "sv10-87",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 866,
+    "deck_id": 10,
+    "card_id": "sv10-176",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 867,
+    "deck_id": 10,
+    "card_id": "sv10-177",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 868,
+    "deck_id": 10,
+    "card_id": "TRS-SV10-086",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 869,
+    "deck_id": 10,
+    "card_id": "dr-019",
+    "quantity_needed": 4,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 870,
+    "deck_id": 10,
+    "card_id": "TRTESP-MEH-087",
+    "quantity_needed": 0,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 871,
+    "deck_id": 10,
+    "card_id": "sv10-178",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 872,
+    "deck_id": 10,
+    "card_id": "man-team-rocket-s-wobbuffet-dri-82-182",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 873,
+    "deck_id": 10,
+    "card_id": "UB-SV-PF-090",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 874,
+    "deck_id": 8,
+    "card_id": "AB-MEH-002",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 875,
+    "deck_id": 8,
+    "card_id": "APP-SV-PE-004",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 876,
+    "deck_id": 8,
+    "card_id": "ENG-grass",
+    "quantity_needed": 5,
+    "quantity_allocated": 5
+  },
+  {
+    "deck_card_id": 877,
+    "deck_id": 8,
+    "card_id": "BBT-SV-PE-006",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 878,
+    "deck_id": 8,
+    "card_id": "BO-ME01-008",
+    "quantity_needed": 3,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 879,
+    "deck_id": 8,
+    "card_id": "BB-SV-WF-009",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 880,
+    "deck_id": 8,
+    "card_id": "BBP-MEH-011",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 881,
+    "deck_id": 8,
+    "card_id": "BCS-SV-PE-014",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 882,
+    "deck_id": 8,
+    "card_id": "DIP-SV-PE-020",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 883,
+    "deck_id": 8,
+    "card_id": "FG-SV-PE-032",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 884,
+    "deck_id": 8,
+    "card_id": "GOL-SV-PE-035",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 885,
+    "deck_id": 8,
+    "card_id": "GRO-SV06-038",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 886,
+    "deck_id": 8,
+    "card_id": "HIL-SV-WF-040",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 887,
+    "deck_id": 8,
+    "card_id": "JUD-ME03-042",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 888,
+    "deck_id": 8,
+    "card_id": "KIE-SV-PE-044",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 889,
+    "deck_id": 8,
+    "card_id": "LA-SV06-045",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 890,
+    "deck_id": 8,
+    "card_id": "LD-MEH-048",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 891,
+    "deck_id": 8,
+    "card_id": "NS-MEH-062",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 892,
+    "deck_id": 8,
+    "card_id": "PP-ME03-064",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 893,
+    "deck_id": 8,
+    "card_id": "PSY-MEH-068",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 894,
+    "deck_id": 8,
+    "card_id": "RAB-SV05-069",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 895,
+    "deck_id": 8,
+    "card_id": "REL-SV05-072",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 896,
+    "deck_id": 8,
+    "card_id": "SEA-SV-PE-077",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 897,
+    "deck_id": 8,
+    "card_id": "SWI-BS-082",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 898,
+    "deck_id": 8,
+    "card_id": "THW-SV06-089",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 899,
+    "deck_id": 8,
+    "card_id": "US-SV06-093",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 928,
+    "deck_id": 5,
+    "card_id": "AB-MEH-002",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 929,
+    "deck_id": 5,
+    "card_id": "ENG-water",
+    "quantity_needed": 6,
+    "quantity_allocated": 6
+  },
+  {
+    "deck_card_id": 930,
+    "deck_id": 5,
+    "card_id": "BO-ME01-008",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 931,
+    "deck_id": 5,
+    "card_id": "BBP-SV-PE-012",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  },
+  {
+    "deck_card_id": 932,
+    "deck_id": 5,
+    "card_id": "BUD-SV-PE-013",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 933,
+    "deck_id": 5,
+    "card_id": "DAW-ME02-019",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 934,
+    "deck_id": 5,
+    "card_id": "DE-MEH-021",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 935,
+    "deck_id": 5,
+    "card_id": "DRA-MEH-023",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 936,
+    "deck_id": 5,
+    "card_id": "DRE-SV-PE-024",
+    "quantity_needed": 3,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 937,
+    "deck_id": 5,
+    "card_id": "me2pt5-142",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 938,
+    "deck_id": 5,
+    "card_id": "me4-20",
+    "quantity_needed": 4,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 939,
+    "deck_id": 5,
+    "card_id": "me4-21",
+    "quantity_needed": 2,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 940,
+    "deck_id": 5,
+    "card_id": "GE-SV06-037",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 941,
+    "deck_id": 5,
+    "card_id": "HIL-SV-WF-040",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 942,
+    "deck_id": 5,
+    "card_id": "IE-SV-WF-041",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 943,
+    "deck_id": 5,
+    "card_id": "LD-ME01-049",
+    "quantity_needed": 4,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 944,
+    "deck_id": 5,
+    "card_id": "MGE-ME04-053",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 945,
+    "deck_id": 5,
+    "card_id": "me3-62",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 946,
+    "deck_id": 5,
+    "card_id": "NUE-SV05-061",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 947,
+    "deck_id": 5,
+    "card_id": "NS-MEH-062",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 948,
+    "deck_id": 5,
+    "card_id": "PP-ME03-064",
+    "quantity_needed": 3,
+    "quantity_allocated": 3
+  },
+  {
+    "deck_card_id": 949,
+    "deck_id": 5,
+    "card_id": "PSY-MEH-068",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 950,
+    "deck_id": 5,
+    "card_id": "RC-ME01-071",
+    "quantity_needed": 2,
+    "quantity_allocated": 2
+  },
+  {
+    "deck_card_id": 951,
+    "deck_id": 5,
+    "card_id": "SHA-SV10-079",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 952,
+    "deck_id": 5,
+    "card_id": "me4-82",
+    "quantity_needed": 1,
+    "quantity_allocated": 0
+  },
+  {
+    "deck_card_id": 953,
+    "deck_id": 5,
+    "card_id": "SUR-MEH-080",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 954,
+    "deck_id": 5,
+    "card_id": "SB-ME01-081",
+    "quantity_needed": 1,
+    "quantity_allocated": 1
+  },
+  {
+    "deck_card_id": 955,
+    "deck_id": 5,
+    "card_id": "UB-SV-PF-090",
+    "quantity_needed": 4,
+    "quantity_allocated": 4
+  }
+]

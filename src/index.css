@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default = dark theme. `.theme-pink` on <html> swaps to the pink/light theme. */
+:root {
+  color-scheme: dark;
+  --bg: 14 15 22;
+  --glow: 30 26 46;
+  --sunken: 19 20 30;
+  --panel: 24 26 37;
+  --panel2: 31 33 47;
+  --edge: 45 47 64;
+  --hover: 39 40 58;
+  --muted: 154 160 180;
+  --ink: 231 233 240;
+  --accent: 139 92 246;
+  --accent-ink: 255 255 255;
+  --brand: 96 142 240;
+  --danger: 236 90 114;
+  --ok: 69 192 138;
+}
+
+.theme-light {
+  color-scheme: light;
+  --bg: 244 245 248;
+  --glow: 235 232 250;
+  --sunken: 248 249 251;
+  --panel: 255 255 255;
+  --panel2: 249 250 252;
+  --edge: 223 226 233;
+  --hover: 237 239 245;
+  --muted: 99 108 128;
+  --ink: 24 28 40;
+  --accent: 124 58 237;
+  --accent-ink: 255 255 255;
+  --brand: 37 99 235;
+  --danger: 220 38 38;
+  --ok: 22 163 74;
+}
+
+.theme-pink {
+  color-scheme: light;
+  --bg: 252 186 214;
+  --glow: 248 161 197;
+  --sunken: 255 240 246;
+  --panel: 255 255 255;
+  --panel2: 255 245 250;
+  --edge: 244 197 218;
+  --hover: 255 230 242;
+  --muted: 158 110 132;
+  --ink: 67 30 47;
+  --accent: 236 72 153;
+  --accent-ink: 255 255 255;
+  --brand: 219 39 119;
+  --danger: 225 29 72;
+  --ok: 22 163 74;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(1200px 600px at 50% -200px, rgb(var(--glow)) 0%, rgb(var(--bg)) 60%) fixed;
+  color: rgb(var(--ink));
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Fluid base type that scales gently on small screens */
+html {
+  font-size: clamp(15px, 0.9rem + 0.2vw, 17px);
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-edge bg-panel shadow-card;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-3.5 py-2 font-semibold
+      transition active:translate-y-px disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-primary {
+    @apply btn bg-accent text-accentInk hover:brightness-110;
+  }
+  .btn-secondary {
+    @apply btn bg-panel2 text-ink border border-edge hover:bg-hover;
+  }
+  .btn-danger {
+    @apply btn bg-danger text-white hover:brightness-110;
+  }
+  .btn-sm {
+    @apply px-2.5 py-1 text-sm;
+  }
+  .input {
+    @apply w-full rounded-lg border border-edge bg-sunken px-3 py-2 text-ink outline-none
+      transition focus:border-brand focus:ring-2 focus:ring-brand/35;
+  }
+  .label {
+    @apply mb-1 block text-sm font-medium text-muted;
+  }
+  .badge {
+    @apply inline-block rounded-full border px-2 py-0.5 text-xs font-bold align-middle;
+  }
+}
+
+/* hide number spinners globally */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

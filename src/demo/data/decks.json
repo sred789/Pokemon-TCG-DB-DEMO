@@ -1,0 +1,27 @@
+[
+  {
+    "deck_id": 4,
+    "deck_name": "Bad Dragon",
+    "creation_date": "2026-06-02"
+  },
+  {
+    "deck_id": 5,
+    "deck_name": "Crazy Frog",
+    "creation_date": "2026-06-02"
+  },
+  {
+    "deck_id": 8,
+    "deck_name": "Festival Lead",
+    "creation_date": "2026-06-02"
+  },
+  {
+    "deck_id": 10,
+    "deck_name": "Rocket Mewtwo",
+    "creation_date": "2026-06-02"
+  },
+  {
+    "deck_id": 13,
+    "deck_name": "Mega Lucario",
+    "creation_date": "2026-06-04"
+  }
+]

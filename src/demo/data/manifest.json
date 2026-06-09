@@ -1,0 +1,17 @@
+{
+  "source": "db+enrichment",
+  "counts": {
+    "cards": 136,
+    "decks": 5,
+    "deck_cards": 126,
+    "orders": 34,
+    "order_items": 134,
+    "manual_inventory": 25
+  },
+  "catalog": 165,
+  "images": {
+    "downloaded": 165,
+    "skipped": 0,
+    "failed": 0
+  }
+}
