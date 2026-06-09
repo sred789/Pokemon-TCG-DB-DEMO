@@ -33,6 +33,48 @@ export default function Dashboard() {
         Collection Dashboard
       </PageTitle>
 
+      {/* Plain-language overview so anyone — Pokémon fan or not — gets what this app does. */}
+      <div className="card mb-6 border-brand/30 bg-gradient-to-b from-panel2 to-panel p-5">
+        <h2 className="text-lg font-bold">What is this? 👋</h2>
+        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted">
+          This is an interactive demo of a <strong className="text-ink">collection manager</strong> for the
+          Pokémon Trading Card Game. Players collect physical cards — bought in random booster packs or in
+          online orders — and assemble <strong className="text-ink">60-card decks</strong> to play with. This
+          app tracks which cards you own, which are still in the mail, which are committed to a deck, and which
+          you still need to buy.
+        </p>
+        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted">
+          <strong className="text-ink">No Pokémon knowledge required.</strong> Think of it as inventory and
+          project tracking for a hobby: every <em>card</em> is an item you own some number of copies of, and
+          every <em>deck</em> is a project with a checklist of the cards it needs. The four numbers below
+          summarize the whole collection at a glance.
+        </p>
+
+        <details className="group mt-3 text-sm">
+          <summary className="inline-flex cursor-pointer items-center gap-1 font-semibold text-brand">
+            <span className="transition group-open:rotate-90">▸</span> How each part works
+          </summary>
+          <ul className="mt-2 max-w-3xl space-y-1.5 text-muted">
+            <li><strong className="text-ink">Cards</strong> — the catalog of cards in the collection, shown as a grid of images.</li>
+            <li><strong className="text-ink">Orders</strong> — online purchases; mark one as <em>delivered</em> when it arrives and its cards move from “incoming” to “in hand.”</li>
+            <li><strong className="text-ink">Inventory</strong> — cards acquired another way (opened packs, trades, gifts).</li>
+            <li><strong className="text-ink">Decks</strong> — build a 60-card deck; the app enforces the game's deck-building rules and shows whether it's legal and complete.</li>
+            <li><strong className="text-ink">Shopping List</strong> — everything the decks still need that isn't already owned.</li>
+          </ul>
+          <p className="mt-2 max-w-3xl text-muted">
+            The four stats below: <strong className="text-ink">Total Owned</strong> = every copy you have or have
+            ordered · <strong className="text-ink">In Possession</strong> = copies physically in hand ·{" "}
+            <strong className="text-ink">Incoming</strong> = ordered but not yet delivered ·{" "}
+            <strong className="text-ink">Available</strong> = owned copies not yet assigned to a deck.
+          </p>
+        </details>
+
+        <p className="mt-3 max-w-3xl text-xs text-muted">
+          It's a live demo with sample data — change anything you like; edits are saved in your browser only and
+          nothing is sent anywhere. Hit <strong className="text-ink">Reset demo</strong> at the top to start fresh.
+        </p>
+      </div>
+
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <StatCard label="Total Owned" value={totals.total_owned} />
         <StatCard label="In Possession" value={totals.in_possession} />

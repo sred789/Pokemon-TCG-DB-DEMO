@@ -61,7 +61,9 @@ export interface DemoDb {
   seq: { orderItemId: number; inductionId: number; deckId: number; deckCardId: number };
 }
 
-const STORAGE_KEY = "ptcg-demo:v1";
+// Bump the version suffix when the bundled seed data changes, so returning visitors re-seed
+// instead of keeping a stale snapshot (v4: renamed the Dragapult deck to "Pult Position").
+const STORAGE_KEY = "ptcg-demo:v4";
 
 function maxId<T>(rows: T[], key: keyof T): number {
   return rows.reduce((m, r) => Math.max(m, Number(r[key]) || 0), 0);
@@ -88,7 +90,24 @@ function buildSeed(): DemoDb {
 
 let store: DemoDb | null = null;
 
+const STORAGE_PREFIX = "ptcg-demo:";
+
+/** Drop snapshots from older data versions so stale seed data can't linger. */
+function purgeLegacy(): void {
+  try {
+    for (let i = localStorage.length - 1; i >= 0; i--) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith(STORAGE_PREFIX) && key !== STORAGE_KEY) {
+        localStorage.removeItem(key);
+      }
+    }
+  } catch {
+    // storage unavailable — nothing to purge
+  }
+}
+
 function read(): DemoDb {
+  purgeLegacy();
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (raw) return JSON.parse(raw) as DemoDb;

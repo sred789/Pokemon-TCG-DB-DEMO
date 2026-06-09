@@ -138,6 +138,13 @@ const ROUTES: Route[] = [
       .sort((a, b) => b.order_date.localeCompare(a.order_date) || a.order_number.localeCompare(b.order_number))
       .map((o) => serializeOrder(db, o)),
   ),
+  r("GET", "/orders/:n", ({ db, params }) => {
+    const order = found(
+      db.orders.find((o) => o.order_number === params.n),
+      `Order ${params.n} not found.`,
+    );
+    return serializeOrder(db, order);
+  }),
   r("POST", "/orders", ({ db, body }) => {
     const b = body as Partial<OrderRow>;
     const orderNumber = (b.order_number ?? "").trim();

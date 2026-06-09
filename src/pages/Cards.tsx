@@ -21,15 +21,10 @@ export default function Cards() {
   const [set, setSet] = useState("all");
   const [sort, setSort] = useState<SortKey>("name");
   const [dir, setDir] = useState<Dir>("asc");
-  const [view, setView] = useState<"table" | "grid">(() => (localStorage.getItem("cardsView") as "table" | "grid") || "table");
-  const setViewMode = (v: "table" | "grid") => {
-    setView(v);
-    try {
-      localStorage.setItem("cardsView", v);
-    } catch {
-      /* ignore */
-    }
-  };
+  // Always open on the grid so first-time viewers see the card images. The toggle below still
+  // switches to the table for the rest of the visit; we intentionally don't persist it so every
+  // fresh load leads with the grid.
+  const [view, setView] = useState<"table" | "grid">("grid");
 
   const sets = useMemo(
     () => Array.from(new Set((data ?? []).map((c) => c.card_set))).sort((a, b) => a.localeCompare(b)),
@@ -116,11 +111,38 @@ export default function Cards() {
         <span className="ml-auto text-sm text-muted">
           {rows.length} card{rows.length === 1 ? "" : "s"}
         </span>
+        {view === "grid" && (
+          <div className="flex items-center gap-1">
+            <label className="text-sm text-muted" htmlFor="grid-sort">
+              Sort
+            </label>
+            <select
+              id="grid-sort"
+              className="input w-auto"
+              value={sort}
+              onChange={(e) => setSort(e.target.value as SortKey)}
+            >
+              <option value="name">Name</option>
+              <option value="set">Set</option>
+              <option value="number">Number</option>
+              <option value="type">Type</option>
+            </select>
+            <button
+              type="button"
+              className="btn-secondary btn-sm"
+              onClick={() => setDir(dir === "asc" ? "desc" : "asc")}
+              title={dir === "asc" ? "Ascending — click for descending" : "Descending — click for ascending"}
+              aria-label="Toggle sort direction"
+            >
+              {dir === "asc" ? "▲" : "▼"}
+            </button>
+          </div>
+        )}
         <div className="flex overflow-hidden rounded-lg border border-edge">
           <button
             type="button"
             className={`px-3 py-1.5 text-sm font-semibold transition ${view === "table" ? "bg-accent text-accentInk" : "text-muted hover:text-ink"}`}
-            onClick={() => setViewMode("table")}
+            onClick={() => setView("table")}
             title="Table view"
           >
             ☰ Table
@@ -128,7 +150,7 @@ export default function Cards() {
           <button
             type="button"
             className={`px-3 py-1.5 text-sm font-semibold transition ${view === "grid" ? "bg-accent text-accentInk" : "text-muted hover:text-ink"}`}
-            onClick={() => setViewMode("grid")}
+            onClick={() => setView("grid")}
             title="Grid view with card images"
           >
             ▦ Grid

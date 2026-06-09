@@ -100,6 +100,17 @@ describe("demo router", () => {
     expect(after.totals.total_owned).toBe(before.totals.total_owned + 3);
   });
 
+  it("serves an order's detail by number (powers the Orders detail page)", async () => {
+    const orders = await get<Order[]>("/orders");
+    expect(orders.length).toBeGreaterThan(0);
+    const one = await get<Order>(`/orders/${encodeURIComponent(orders[0].order_number)}`);
+    expect(one.order_number).toBe(orders[0].order_number);
+    expect(Array.isArray(one.items)).toBe(true);
+    // every item carries its hydrated card
+    for (const it of one.items) expect(it.card?.card_id).toBe(it.card_id);
+    await expect(get("/orders/NOT-A-REAL-ORDER")).rejects.toMatchObject({ status: 404 });
+  });
+
   it("persists edits and restores them on reset", async () => {
     await send("POST", "/decks", { deck_name: "Smoke Test Deck" });
     let decks = await get<DeckSummary[]>("/decks");
